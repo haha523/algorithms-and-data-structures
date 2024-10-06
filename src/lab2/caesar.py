@@ -1,3 +1,5 @@
+from posixpath import splitext
+
 def encrypt_caesar(plaintext: str, shift: int = 3) -> str:
     """
     Encrypts plaintext using a Caesar cipher.
@@ -11,7 +13,12 @@ def encrypt_caesar(plaintext: str, shift: int = 3) -> str:
     ''
     """
     ciphertext = ""
-    # PUT YOUR CODE HERE
+    for char in plaintext:
+        if char.isalpha():
+            shift_base = ord('A') if char.isupper() else ord('a')
+            ciphertext += chr((ord(char) - shift_base + shift) % 26 + shift_base)
+        else:
+            ciphertext += char  
     return ciphertext
 
 
@@ -28,5 +35,16 @@ def decrypt_caesar(ciphertext: str, shift: int = 3) -> str:
     ''
     """
     plaintext = ""
-    # PUT YOUR CODE HERE
-    return plaintext
+    for char in ciphertext:
+        if char.isalpha():
+            shift_base = ord('A') if char.isupper() else ord('a')
+            plaintext += chr((ord(char) - shift_base - shift) % 26 + shift_base)
+        else:
+            plaintext += char
+    return plaintext  
+
+ciphertext = input()
+print("Encryption : " , encrypt_caesar(ciphertext, 3), sep = '' )
+
+plaintext = input()
+print("Decryption : " ,decrypt_caesar(plaintext, 3), sep = '')
