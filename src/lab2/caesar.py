@@ -1,3 +1,4 @@
+import unittest
 from posixpath import splitext
 
 def encrypt_caesar(plaintext: str, shift: int = 3) -> str:
