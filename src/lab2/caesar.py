@@ -22,7 +22,6 @@ def encrypt_caesar(plaintext: str, shift: int = 3) -> str:
             ciphertext += char  
     return ciphertext
 
-
 def decrypt_caesar(ciphertext: str, shift: int = 3) -> str:
     """
     Decrypts a ciphertext using a Caesar cipher.
@@ -50,5 +49,17 @@ print("Encryption : " , encrypt_caesar(ciphertext, 3), sep = '' )
 plaintext = input()
 print("Decryption : " ,decrypt_caesar(plaintext, 3), sep = '')
 
+class TestCaesarCipher(unittest.TestCase):
+    
+    def test_encrypt(self):
+        self.assertEqual(encrypt_caesar('PYTHON', 3), 'SBWKRQ')
+        self.assertEqual(encrypt_caesar('python', 3), 'sbwkrq')
+        self.assertEqual(encrypt_caesar('Python3.6', 3), 'Sbwkrq3.6')
+        
+    def test_decrypt(self):
+        self.assertEqual(decrypt_caesar('SBWKRQ', 3), 'PYTHON')
+        self.assertEqual(decrypt_caesar('sbwkrq', 3), 'python')
+        self.assertEqual(decrypt_caesar('Sbwkrq3.6', 3), 'Python3.6')
+
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main(verbosity=2)
