@@ -49,3 +49,6 @@ print("Encryption : " , encrypt_caesar(ciphertext, 3), sep = '' )
 
 plaintext = input()
 print("Decryption : " ,decrypt_caesar(plaintext, 3), sep = '')
+
+if __name__ == "__main__":
+    unittest.main()
