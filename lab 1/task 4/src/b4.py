@@ -6,11 +6,11 @@ def linear_search(arr, v):
     else:
         return "-1"
 
-with open('d:/Visual studio code/lab_1.py/input for b4.txt', 'r') as file:
+with open('input.txt', 'r') as file:
     arr = list(map(int, file.readline().split()))
     v = int(file.readline().strip())
 
 result = linear_search(arr, v)
 
-with open('d:/Visual studio code/lab_1.py/output for b4.txt', 'w') as file:
+with open('output.txt', 'w') as file:
     file.write(result)

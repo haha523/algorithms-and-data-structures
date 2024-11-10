@@ -14,7 +14,7 @@ def binary_search(arr, x):
     return -1  
 
 def main():
-    with open('d:/Visual studio code/lab_2.py/input for t4.txt', 'r') as file:
+    with open('input.txt', 'r') as file:
         n = int(file.readline().strip())
         a = list(map(int, file.readline().strip().split()))
         k = int(file.readline().strip())
@@ -25,7 +25,7 @@ def main():
         index = binary_search(a, number)
         result.append(index)
         
-    with open('d:/Visual studio code/lab_2.py/output for t4.txt', 'w') as file:
+    with open('output.txt', 'w') as file:
         file.write(' '.join(map(str, result)) + '\n')
 
 if __name__ == '__main__':

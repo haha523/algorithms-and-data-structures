@@ -46,14 +46,14 @@ def find_max_profit(prices):
     return buy_day + 1, sell_day + 1, max_profit
 
 def main():
-    with open('d:/Visual studio code/lab_2.py/input for t6.txt', 'r') as file:
+    with open('input.txt', 'r') as file:
         company_name = file.readline().strip()
         dates = file.readline().strip().split()
         prices = list(map(float, file.readline().strip().split()))
 
     buy_day, sell_day, max_profit = find_max_profit(prices)
 
-    with open('d:/Visual studio code/lab_2.py/output for t6.txt', 'w') as file:
+    with open('output.txt', 'w') as file:
         file.write(f"Company: {company_name}\n")
         file.write(f"Buy on: {dates[buy_day]}\n")
         file.write(f"Sell on: {dates[sell_day]}\n")

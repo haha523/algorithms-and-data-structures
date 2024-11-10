@@ -39,11 +39,11 @@ def count_inversions(arr):
     temp_arr = [0] * len(arr)
     return merge_sort_and_count(arr, temp_arr, 0, len(arr) - 1)
 
-with open('d:/Visual studio code/lab_2.py/input for t3.txt', "r") as f:
+with open('input.txt', "r") as f:
     n = int(f.readline().strip())
     arr = list(map(int, f.readline().strip().split()))
 
 inv_count = count_inversions(arr)
 
-with open('d:/Visual studio code/lab_2.py/output for t3.txt', "w") as f:
+with open('output.txt', "w") as f:
     f.write(str(inv_count))

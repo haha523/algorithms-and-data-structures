@@ -11,11 +11,11 @@ def insertion_sort_recursive(arr, n):
     arr[j + 1] = key
 
 
-with open('d:/Visual studio code/lab_1.py/input for b3.txt', 'r') as infile:
+with open('input.txt', 'r') as infile:
     data = list(map(int, infile.readline().strip().split()))
 
 insertion_sort_recursive(data, len(data))
 
 
-with open('d:/Visual studio code/lab_1.py/output for b3.txt', 'w') as outfile:
+with open('output.txt', 'w') as outfile:
     outfile.write(' '.join(map(str, data)))

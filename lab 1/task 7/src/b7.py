@@ -15,4 +15,4 @@ def process_data(input_file, output_file):
     with open(output_file, 'w') as file:
         file.write(f"{poorest} {median} {richest}\n")
 
-process_data('d:/Visual studio code/lab_1.py/input for b7.txt', 'd:/Visual studio code/lab_1.py/output for b7.txt')
+process_data('input.txt', 'output.txt')

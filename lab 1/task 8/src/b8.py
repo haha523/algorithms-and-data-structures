@@ -13,13 +13,13 @@ def swap_sort(arr):
     
     return swaps
 
-with open('d:/Visual studio code/lab_1.py/input for b8.txt', 'r') as infile:
+with open('input.txt', 'r') as infile:
     n = int(infile.readline().strip())
     arr = list(map(int, infile.readline().strip().split()))
 
 swaps = swap_sort(arr)
 
-with open( 'd:/Visual studio code/lab_1.py/output for b8.txt', 'w') as outfile:
+with open('output.txt', 'w') as outfile:
     for swap in swaps:
         outfile.write(swap + '\n')
         

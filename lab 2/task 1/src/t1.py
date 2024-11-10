@@ -34,13 +34,13 @@ def merge_sort(arr, left, right):
         merge(arr, left, mid, right)
 
 def main():
-    with open('d:/Visual studio code/lab_2.py/input for t1.txt', 'r') as f:
+    with open('input.txt', 'r') as f:
         n = int(f.readline())  
         arr = list(map(int, f.readline().split()))  
 
     merge_sort(arr, 0, n - 1)  
 
-    with open('d:/Visual studio code/lab_2.py/output for t1.txt', 'w') as f:
+    with open('output.txt', 'w') as f:
         f.write(' '.join(map(str, arr)))  
 
 if __name__ == "__main__":

@@ -30,9 +30,9 @@ def find_majority(n, array):
     return 0
 
 def main():
-    n, array = read_input('d:/Visual studio code/lab_2.py/input for t5.txt')
+    n, array = read_input('input.txt')
     result = find_majority(n, array)
-    with open('d:/Visual studio code/lab_2.py/output for t5.txt', 'w') as file:
+    with open('output.txt', 'w') as file:
         file.write(str(result))
 
 if __name__ == "__main__":

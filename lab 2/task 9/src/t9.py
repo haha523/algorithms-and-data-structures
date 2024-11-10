@@ -81,10 +81,10 @@ def write_output(filename, matrix):
             file.write(' '.join(map(str, row)) + '\n')
 
 if __name__ == '__main__':
-    n, A, B = read_input('d:/Visual studio code/lab_2.py/input for t9.txt')
+    n, A, B = read_input('input.txt')
     
     result_simple = simple_matrix_multiplication(A, B)
-    write_output('d:/Visual studio code/lab_2.py/output_simple for t9.txt', result_simple)
+    write_output('output_simple.txt', result_simple)
     
     result_strassen = strassen_multiplication(A, B)
-    write_output('d:/Visual studio code/lab_2.py/output_strassen for t9.txt', result_strassen)
+    write_output('output_strassen.txt', result_strassen)

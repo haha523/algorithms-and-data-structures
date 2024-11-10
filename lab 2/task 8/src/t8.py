@@ -33,12 +33,12 @@ def poly_multiply(A, B):
     
     return result
 
-with open('d:/Visual studio code/lab_2.py/input for t8.txt', 'r') as f:
+with open('input.txt', 'r') as f:
     n = int(f.readline())
     A = list(map(int, f.readline().split()))
     B = list(map(int, f.readline().split()))
 
 C = poly_multiply(A, B)
 
-with open('d:/Visual studio code/lab_2.py/output for t8.txt', 'w') as f:
+with open('output.txt', 'w') as f:
     f.write(' '.join(map(str, C)))

@@ -12,8 +12,8 @@ def write_output_file(filename, result):
         file.write(result)
 
 def main():
-    input_file = 'd:/Visual studio code/lab_1.py/input for b9.txt'
-    output_file = 'd:/Visual studio code/lab_1.py/output for b9.txt'
+    input_file = 'input.txt'
+    output_file = 'output.txt'
 
     A, B = read_input_file(input_file)
     result = binary_addition(A, B)

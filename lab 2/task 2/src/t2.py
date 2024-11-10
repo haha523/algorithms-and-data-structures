@@ -41,7 +41,7 @@ def merge_sort(arr, left, right, output):
         merge(arr, left, mid, right, output)
 
 def main():
-    input_file_path = 'd:/Visual studio code/lab_2.py/input for t2.txt'
+    input_file_path = 'input.txt'
     
     if not os.path.exists(input_file_path):
         print(f"File does not exist: {input_file_path}")
@@ -51,7 +51,7 @@ def main():
         n = int(f.readline().strip())
         arr = list(map(int, f.readline().strip().split()))
 
-    with open('d:/Visual studio code/lab_2.py/output for t2.txt', 'w') as output:
+    with open('output.txt', 'w') as output:
         merge_sort(arr, 0, n - 1, output)
 
         output.write(" ".join(map(str, arr)) + "\n")

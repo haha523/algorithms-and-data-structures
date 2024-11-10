@@ -9,10 +9,10 @@ def insertion_sort(arr):
             j -= 1
         arr[j + 1] = key
 
-with open('d:/Visual studio code/lab_1.py/input for b1.txt', 'r') as infile:
+with open('input.txt', 'r') as infile:
     arr = list(map(int, infile.readline().strip().split()))
 
 insertion_sort(arr)
 
-with open('d:/Visual studio code/lab_1.py/output for b1.txt', 'w') as outfile:
+with open('output.txt', 'w') as outfile:
         outfile.write(' '.join(map(str, arr)))
