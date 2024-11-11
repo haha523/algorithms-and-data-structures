@@ -3,22 +3,18 @@ import unittest
 def count_segments_containing_points(segments, points):
     events = []
 
-    # Thêm sự kiện cho các đoạn
     for a, b in segments:
         events.append((a, 'start'))  # Bắt đầu đoạn
         events.append((b, 'end'))    # Kết thúc đoạn (b là bao gồm)
 
-    # Thêm sự kiện cho các điểm
     for i, x in enumerate(points):
         events.append((x, 'point', i))  # Ghi chỉ số điểm
 
-    # Sắp xếp sự kiện
     events.sort(key=lambda x: (x[0], 0 if x[1] == 'start' else (1 if x[1] == 'point' else 2)))
 
     count = 0
     results = [0] * len(points)
 
-    # Quét qua các sự kiện
     for event in events:
         if event[1] == 'start':
             count += 1

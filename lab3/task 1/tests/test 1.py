@@ -2,8 +2,6 @@ import unittest
 import random
 import os
 
-
-# Chèn mã gốc vào đây hoặc import nếu nó ở tệp khác
 def read_input(filename):
     with open(filename, 'r') as file:
         n = int(file.readline().strip())

@@ -2,16 +2,13 @@ import unittest
 
 
 def digital_sorting(n, m, k, data):
-    # Chuyển đổi dữ liệu từ định dạng cột sang định dạng hàng
     strings = [''] * n
     for j in range(m):
         for i in range(n):
             strings[i] += data[j][i]
 
-    # Tạo danh sách các chỉ số
     indices = list(range(1, n + 1))
 
-    # Thực hiện k pha sắp xếp
     for phase in range(1, k + 1):
         # Sắp xếp theo ký tự ở vị trí m - phase
         indices.sort(key=lambda x: strings[x - 1][m - phase])
