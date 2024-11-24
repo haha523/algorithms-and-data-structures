@@ -1,3 +1,5 @@
+import os
+
 def max_crossing_subarray(prices_diff, low, mid, high):
     left_sum = float('-inf')
     sum = 0
@@ -38,22 +40,24 @@ def max_subarray(prices_diff, low, high):
         return cross_low, cross_high, cross_sum
 
 def find_max_profit(prices):
-
     prices_diff = [prices[i] - prices[i - 1] for i in range(1, len(prices))]
-
     buy_day, sell_day, max_profit = max_subarray(prices_diff, 0, len(prices_diff) - 1)
-
     return buy_day + 1, sell_day + 1, max_profit
 
 def main():
-    with open('input.txt', 'r') as file:
+    # Get the absolute path of the current script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    input_file_path = os.path.join(current_dir, '..', 'txtf', 'input.txt')
+    output_file_path = os.path.join(current_dir, '..', 'txtf', 'output.txt')
+
+    with open(input_file_path, 'r') as file:
         company_name = file.readline().strip()
         dates = file.readline().strip().split()
         prices = list(map(float, file.readline().strip().split()))
 
     buy_day, sell_day, max_profit = find_max_profit(prices)
 
-    with open('output.txt', 'w') as file:
+    with open(output_file_path, 'w') as file:
         file.write(f"Company: {company_name}\n")
         file.write(f"Buy on: {dates[buy_day]}\n")
         file.write(f"Sell on: {dates[sell_day]}\n")

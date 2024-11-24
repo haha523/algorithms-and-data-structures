@@ -1,6 +1,5 @@
 import unittest
 
-
 def poly_multiply(A, B):
     n = len(A)
     m = len(B)

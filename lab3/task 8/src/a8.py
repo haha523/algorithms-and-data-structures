@@ -1,9 +1,11 @@
 import sys
 import heapq
+import os
 
 def main():
-    input_file = 'input.txt'
-    output_file = 'output.txt'
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    input_file = os.path.join(current_dir, '..', 'txtf', 'input.txt')
+    output_file = os.path.join(current_dir, '..', 'txtf', 'output.txt')
 
     with open(input_file, 'r') as f:
         n, k = map(int, f.readline().strip().split())

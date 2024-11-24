@@ -1,6 +1,5 @@
 import unittest
 
-
 def digital_sorting(n, m, k, data):
     strings = [''] * n
     for j in range(m):
@@ -15,33 +14,31 @@ def digital_sorting(n, m, k, data):
 
     return indices
 
-
 class TestDigitalSorting(unittest.TestCase):
 
     def test_example_1(self):
         n, m, k = 3, 3, 1
         data = ["bab", "bba", "baa"]
         result = digital_sorting(n, m, k, data)
-        self.assertEqual(result, [2, 3, 1])  # Kỳ vọng thứ tự sau k pha
+        self.assertEqual(result, [2, 3, 1])
 
     def test_example_2(self):
         n, m, k = 3, 3, 2
         data = ["bab", "bba", "baa"]
         result = digital_sorting(n, m, k, data)
-        self.assertEqual(result, [3, 2, 1])  # Kỳ vọng thứ tự sau k pha
+        self.assertEqual(result, [3, 2, 1])
 
     def test_example_3(self):
         n, m, k = 3, 3, 3
         data = ["bab", "bba", "baa"]
         result = digital_sorting(n, m, k, data)
-        self.assertEqual(result, [2, 3, 1])  # Kỳ vọng thứ tự sau k pha
+        self.assertEqual(result, [2, 3, 1])
 
     def test_identical_strings(self):
         n, m, k = 4, 4, 2
         data = ["aaaa", "aaaa", "aaaa", "aaaa"]
         result = digital_sorting(n, m, k, data)
-        self.assertEqual(result, [1, 2, 3, 4])  # Tất cả giống nhau
-
+        self.assertEqual(result, [1, 2, 3, 4])
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,3 +1,5 @@
+import os
+
 def merge(arr, left, mid, right):
     L = arr[left:mid+1]
     R = arr[mid+1:right+1]
@@ -27,20 +29,22 @@ def merge(arr, left, mid, right):
 def merge_sort(arr, left, right):
     if left < right:
         mid = (left + right) // 2
-
         merge_sort(arr, left, mid)
         merge_sort(arr, mid + 1, right)
-
         merge(arr, left, mid, right)
 
 def main():
-    with open('input.txt', 'r') as f:
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    input_file_path = os.path.join(current_dir, '..', 'txtf', 'input.txt')
+    output_file_path = os.path.join(current_dir, '..', 'txtf', 'output.txt')
+
+    with open(input_file_path, 'r') as f:
         n = int(f.readline())  
         arr = list(map(int, f.readline().split()))  
 
     merge_sort(arr, 0, n - 1)  
 
-    with open('output.txt', 'w') as f:
+    with open(output_file_path, 'w') as f:
         f.write(' '.join(map(str, arr)))  
 
 if __name__ == "__main__":

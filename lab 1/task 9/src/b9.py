@@ -1,3 +1,5 @@
+import os
+
 def read_input_file(filename):
     with open(filename, 'r') as file:
         binary_numbers = file.readline().strip().split()
@@ -12,12 +14,14 @@ def write_output_file(filename, result):
         file.write(result)
 
 def main():
-    input_file = 'input.txt'
-    output_file = 'output.txt'
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    input_file_path = os.path.join(current_dir, '..', 'txtf', 'input.txt')
+    output_file_path = os.path.join(current_dir, '..', 'txtf', 'output.txt')
 
-    A, B = read_input_file(input_file)
+    A, B = read_input_file(input_file_path)
     result = binary_addition(A, B)
 
-    write_output_file(output_file, result)
+    write_output_file(output_file_path, result)
+
 if __name__ == "__main__":
     main()

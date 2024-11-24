@@ -4,11 +4,11 @@ def count_segments_containing_points(segments, points):
     events = []
 
     for a, b in segments:
-        events.append((a, 'start'))  # Bắt đầu đoạn
-        events.append((b, 'end'))    # Kết thúc đoạn (b là bao gồm)
+        events.append((a, 'start'))
+        events.append((b, 'end'))
 
     for i, x in enumerate(points):
-        events.append((x, 'point', i))  # Ghi chỉ số điểm
+        events.append((x, 'point', i))
 
     events.sort(key=lambda x: (x[0], 0 if x[1] == 'start' else (1 if x[1] == 'point' else 2)))
 

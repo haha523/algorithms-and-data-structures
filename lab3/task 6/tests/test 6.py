@@ -1,6 +1,5 @@
 import unittest
 
-
 def read_input(file_path):
     with open(file_path, 'r') as file:
         n, m = map(int, file.readline().strip().split())
@@ -8,14 +7,12 @@ def read_input(file_path):
         B = list(map(int, file.readline().strip().split()))
     return n, m, A, B
 
-
 def calculate_products(A, B):
     products = []
     for a in A:
         for b in B:
             products.append(a * b)
     return products
-
 
 def calculate_sum_of_selected_products(A, B):
     products = calculate_products(A, B)
@@ -52,10 +49,9 @@ class TestProductSum(unittest.TestCase):
     def test_large_elements(self):
         A = [40000, 40000, 40000, 40000]
         B = [40000, 40000, 40000, 40000]
-        expected_sum = 3200000000  # Tổng của 40000 * 40000 + 40000 * 40000
+        expected_sum = 3200000000
         result = calculate_sum_of_selected_products(A, B)
         self.assertEqual(result, expected_sum)
-
 
 if __name__ == "__main__":
     unittest.main()

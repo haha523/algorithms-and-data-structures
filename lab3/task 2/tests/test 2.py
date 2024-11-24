@@ -1,6 +1,5 @@
 import unittest
 
-
 def generate_anti_quick_sort(n):
     result = []
     for i in range(1, n + 1, 2):
@@ -8,7 +7,6 @@ def generate_anti_quick_sort(n):
     for i in range(2, n + 1, 2):
         result.append(i)
     return result
-
 
 class TestAntiQuickSort(unittest.TestCase):
 

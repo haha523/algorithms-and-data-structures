@@ -1,3 +1,5 @@
+import os
+
 def count_segments_containing_points(segments, points):
     events = []
 
@@ -24,12 +26,20 @@ def count_segments_containing_points(segments, points):
 
     return results
 
-with open('input.txt', 'r') as f:
-    s, p = map(int, f.readline().strip().split())
-    segments = [tuple(map(int, f.readline().strip().split())) for _ in range(s)]
-    points = list(map(int, f.readline().strip().split()))
+def main():
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    input_file_path = os.path.join(current_dir, '..', 'txtf', 'input.txt')
+    output_file_path = os.path.join(current_dir, '..', 'txtf', 'output.txt')
 
-results = count_segments_containing_points(segments, points)
+    with open(input_file_path, 'r') as f:
+        s, p = map(int, f.readline().strip().split())
+        segments = [tuple(map(int, f.readline().strip().split())) for _ in range(s)]
+        points = list(map(int, f.readline().strip().split()))
 
-with open('output.txt', 'w') as f:
-    f.write(' '.join(map(str, results)) + '\n')
+    results = count_segments_containing_points(segments, points)
+
+    with open(output_file_path, 'w') as f:
+        f.write(' '.join(map(str, results)) + '\n')
+
+if __name__ == "__main__":
+    main()

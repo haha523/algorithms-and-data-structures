@@ -41,8 +41,11 @@ def merge_sort(arr, left, right, output):
         merge(arr, left, mid, right, output)
 
 def main():
-    input_file_path = 'input.txt'
-    
+    # Get the absolute path of the current script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    input_file_path = os.path.join(current_dir, '..', 'txtf', 'input.txt')
+    output_file_path = os.path.join(current_dir, '..', 'txtf', 'output.txt')
+
     if not os.path.exists(input_file_path):
         print(f"File does not exist: {input_file_path}")
         return
@@ -51,9 +54,8 @@ def main():
         n = int(f.readline().strip())
         arr = list(map(int, f.readline().strip().split()))
 
-    with open('output.txt', 'w') as output:
+    with open(output_file_path, 'w') as output:
         merge_sort(arr, 0, n - 1, output)
-
         output.write(" ".join(map(str, arr)) + "\n")
 
 if __name__ == "__main__":

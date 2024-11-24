@@ -1,3 +1,5 @@
+import os
+
 def read_input(filename):
     with open(filename, 'r') as file:
         n = int(file.readline().strip())
@@ -30,9 +32,15 @@ def find_majority(n, array):
     return 0
 
 def main():
-    n, array = read_input('input.txt')
+    # Get the absolute path of the current script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    input_file_path = os.path.join(current_dir, '..', 'txtf', 'input.txt')
+    output_file_path = os.path.join(current_dir, '..', 'txtf', 'output.txt')
+
+    n, array = read_input(input_file_path)
     result = find_majority(n, array)
-    with open('output.txt', 'w') as file:
+
+    with open(output_file_path, 'w') as file:
         file.write(str(result))
 
 if __name__ == "__main__":

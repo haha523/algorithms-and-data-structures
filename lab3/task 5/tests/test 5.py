@@ -12,7 +12,6 @@ def calculate_h_index(citations):
 
     return h_index
 
-
 class TestCalculateHIndex(unittest.TestCase):
 
     def test_case_1(self):

@@ -1,3 +1,4 @@
+import os
 import math
 
 def distance(p1, p2):
@@ -42,13 +43,22 @@ def strip_closest(strip, d):
             j += 1
     return min_dist
 
-with open('input.txt', 'r') as f:
-    n = int(f.readline().strip())
-    points = [tuple(map(int, f.readline().strip().split())) for _ in range(n)]
+def main():
+    # Đường dẫn tới file input và output trong thư mục txtf
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    input_file_path = os.path.join(current_dir, '..', 'txtf', 'input.txt')
+    output_file_path = os.path.join(current_dir, '..', 'txtf', 'output.txt')
 
-points.sort(key=lambda point: point[0])
+    with open(input_file_path, 'r') as f:
+        n = int(f.readline().strip())
+        points = [tuple(map(int, f.readline().strip().split())) for _ in range(n)]
 
-min_distance = closest_pair(points)
+    points.sort(key=lambda point: point[0])
 
-with open('output.txt', 'w') as f:
-    f.write(f"{min_distance:.4f}\n")
+    min_distance = closest_pair(points)
+
+    with open(output_file_path, 'w') as f:
+        f.write(f"{min_distance:.4f}\n")
+
+if __name__ == "__main__":
+    main()

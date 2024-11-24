@@ -1,31 +1,36 @@
-import numpy as np 
+import os
+
 
 def simple_matrix_multiplication(A, B):
     n = len(A)
     C = [[0 for _ in range(n)] for _ in range(n)]
-    
+
     for i in range(n):
         for j in range(n):
             for k in range(n):
                 C[i][j] += A[i][k] * B[k][j]
-    
+
     return C
+
+
 def add_matrix(A, B):
     n = len(A)
     result = [[A[i][j] + B[i][j] for j in range(n)] for i in range(n)]
     return result
+
 
 def sub_matrix(A, B):
     n = len(A)
     result = [[A[i][j] - B[i][j] for j in range(n)] for i in range(n)]
     return result
 
+
 def strassen_multiplication(A, B):
     n = len(A)
-    
+
     if n == 1:
         return [[A[0][0] * B[0][0]]]
-    
+
     mid = n // 2
 
     A11 = [[A[i][j] for j in range(mid)] for i in range(mid)]
@@ -55,36 +60,52 @@ def strassen_multiplication(A, B):
     for i in range(mid):
         for j in range(mid):
             C[i][j] = C11[i][j]
-            C[i][j+mid] = C12[i][j]
-            C[i+mid][j] = C21[i][j]
-            C[i+mid][j+mid] = C22[i][j]
+            C[i][j + mid] = C12[i][j]
+            C[i + mid][j] = C21[i][j]
+            C[i + mid][j + mid] = C22[i][j]
 
     return C
+
+
 def read_input(filename):
     with open(filename, 'r') as file:
         lines = file.readlines()
-    
+
     n = int(lines[0].strip())
     matrix_A = []
     matrix_B = []
-    
-    for i in range(1, n+1):
+
+    for i in range(1, n + 1):
         matrix_A.append(list(map(int, lines[i].strip().split())))
-    for i in range(n+1, 2*n+1):
+    for i in range(n + 1, 2 * n + 1):
         matrix_B.append(list(map(int, lines[i].strip().split())))
-    
+
     return n, matrix_A, matrix_B
+
 
 def write_output(filename, matrix):
     with open(filename, 'w') as file:
         for row in matrix:
             file.write(' '.join(map(str, row)) + '\n')
 
-if __name__ == '__main__':
-    n, A, B = read_input('input.txt')
-    
+
+def main():
+    # Get the absolute path of the current script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    input_file_path = os.path.join(current_dir, '..', 'txtf', 'input.txt')
+
+    n, A, B = read_input(input_file_path)
+
+    # Specify output paths
+    output_simple_path = os.path.join(current_dir, '..', 'txtf', 'output_simple.txt')
+    output_strassen_path = os.path.join(current_dir, '..', 'txtf', 'output_strassen.txt')
+
     result_simple = simple_matrix_multiplication(A, B)
-    write_output('output_simple.txt', result_simple)
-    
+    write_output(output_simple_path, result_simple)
+
     result_strassen = strassen_multiplication(A, B)
-    write_output('output_strassen.txt', result_strassen)
+    write_output(output_strassen_path, result_strassen)
+
+
+if __name__ == '__main__':
+    main()

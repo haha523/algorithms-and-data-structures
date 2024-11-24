@@ -41,6 +41,7 @@ class TestMaxSubarrayKadane(unittest.TestCase):
         self.assertEqual(max_subarray_kadane(arr), 8)
 
     def test_numbers(self):
+        # given
         arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
         self.assertEqual(max_subarray_kadane(arr), 6)
 if __name__ == "__main__":

@@ -1,3 +1,5 @@
+import os
+
 def calculate_h_index(citations):
     citations.sort(reverse=True)
 
@@ -10,11 +12,19 @@ def calculate_h_index(citations):
 
     return h_index
 
-with open('input.txt', 'r') as f:
-    line = f.readline().strip()
-    citations = list(map(int, line.replace(',', ' ').split()))
+def main():
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    input_file_path = os.path.join(current_dir, '..', 'txtf', 'input.txt')
+    output_file_path = os.path.join(current_dir, '..', 'txtf', 'output.txt')
 
-h_index = calculate_h_index(citations)
+    with open(input_file_path, 'r') as f:
+        line = f.readline().strip()
+        citations = list(map(int, line.replace(',', ' ').split()))
 
-with open('output.txt', 'w') as f:
-    f.write(str(h_index) + '\n')
+    h_index = calculate_h_index(citations)
+
+    with open(output_file_path, 'w') as f:
+        f.write(str(h_index) + '\n')
+
+if __name__ == "__main__":
+    main()
