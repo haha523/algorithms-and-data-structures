@@ -26,11 +26,11 @@
 
 1. **Клонируйте репозиторий**
    ```bash
-   git clone https://github.com/MkrtchyanKarina/algorithms-and-data-structures.git
+   git clone https://github.com/haha523/algorithms-and-data-structures.git
    ```
 2. **Перейдите в папку с проектом**
    ```bash
-   cd algorithms-and-data-structures/lab5
+   cd algorithms-and-data-structures/lab2
    ```
 3. **Запустить все лабораторные**
     ```bash
