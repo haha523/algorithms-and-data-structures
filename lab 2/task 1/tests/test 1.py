@@ -34,33 +34,65 @@ def merge_sort(arr, left, right):
 
 class TestMergeSort(unittest.TestCase):
     def test_sorted_array(self):
+        # given
         arr = [1, 2, 3, 4, 5]
+
+        # when
         merge_sort(arr, 0, len(arr) - 1)
+
+        # then
         self.assertEqual(arr, [1, 2, 3, 4, 5])
+
 
     def test_reverse_sorted_array(self):
+        # given
         arr = [5, 4, 3, 2, 1]
+
+        # when
         merge_sort(arr, 0, len(arr) - 1)
+
+        # then
         self.assertEqual(arr, [1, 2, 3, 4, 5])
 
+
     def test_unsorted_array(self):
+        # given
         arr = [3, 1, 4, 2, 5]
+
+        # when
         merge_sort(arr, 0, len(arr) - 1)
+
+        # then
         self.assertEqual(arr, [1, 2, 3, 4, 5])
 
     def test_empty_array(self):
+        # given
         arr = []
+
+        # when
         merge_sort(arr, 0, len(arr) - 1)
+
+        # then
         self.assertEqual(arr, [])
 
     def test_single_element_array(self):
+        # given
         arr = [42]
+
+        # when
         merge_sort(arr, 0, len(arr) - 1)
+
+        # then
         self.assertEqual(arr, [42])
 
     def test_duplicates(self):
+        # given
         arr = [3, 1, 2, 3, 1]
+
+        # when
         merge_sort(arr, 0, len(arr) - 1)
+
+        # then
         self.assertEqual(arr, [1, 1, 2, 3, 3])
 
 if __name__ == "__main__":

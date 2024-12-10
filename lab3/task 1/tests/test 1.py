@@ -62,43 +62,53 @@ def randomized_quicksort_partition3(arr, l, r):
 class TestSortingAlgorithms(unittest.TestCase):
 
     def setUp(self):
-        # Tạo dữ liệu mẫu cho các bài kiểm tra
+        # given
         self.test_data = [5, 3, 8, 1, 2, 7, 4, 6]
         self.test_file_input = 'test_input.txt'
         self.test_file_output1 = 'test_output1.txt'
         self.test_file_output2 = 'test_output2.txt'
-
+        # when
         with open(self.test_file_input, 'w') as f:
             f.write(f"{len(self.test_data)}\n")
             f.write(" ".join(map(str, self.test_data)))
 
     def tearDown(self):
-        # Xóa các tệp đã tạo sau khi kiểm tra
+        # given
         for file in [self.test_file_input, self.test_file_output1, self.test_file_output2]:
             if os.path.exists(file):
                 os.remove(file)
 
     def test_read_input(self):
+        # given
         n, array = read_input(self.test_file_input)
+        # when
         self.assertEqual(n, len(self.test_data))
         self.assertEqual(array, self.test_data)
 
     def test_write_output(self):
+        # given
         write_output(self.test_file_output1, self.test_data)
+        # when
         with open(self.test_file_output1, 'r') as f:
             output_data = list(map(int, f.readline().strip().split()))
+        # then
         self.assertEqual(output_data, self.test_data)
 
     def test_randomized_quicksort(self):
+        # given
         array_copy = self.test_data[:]
+        # when
         randomized_quicksort(array_copy, 0, len(array_copy) - 1)
+        # then
         self.assertEqual(sorted(self.test_data), array_copy)
 
     def test_randomized_quicksort_partition3(self):
+        # given
         array_copy = self.test_data[:]
+        # when
         randomized_quicksort_partition3(array_copy, 0, len(array_copy) - 1)
+        # then
         self.assertEqual(sorted(self.test_data), array_copy)
-
 
 if __name__ == '__main__':
     unittest.main()

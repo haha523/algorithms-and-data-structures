@@ -15,15 +15,21 @@ def calculate_h_index(citations):
 class TestCalculateHIndex(unittest.TestCase):
 
     def test_case_1(self):
+        # given
         citations = [3, 0, 6, 1, 5]
         expected = 3
+        # when
         result = calculate_h_index(citations)
+        # then
         self.assertEqual(result, expected)
 
     def test_case_2(self):
+        # given
         citations = [1, 3, 1]
         expected = 1
+        # when
         result = calculate_h_index(citations)
+        # then
         self.assertEqual(result, expected)
 
 if __name__ == '__main__':

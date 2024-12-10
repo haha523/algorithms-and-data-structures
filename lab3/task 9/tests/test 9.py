@@ -46,23 +46,35 @@ def strip_closest(strip, d):
 class TestClosestPair(unittest.TestCase):
 
     def test_two_points(self):
+        # given
         points = [(0, 0), (3, 4)]
+        # when
         result = closest_pair(points)
+        # then
         self.assertAlmostEqual(result, 5.0, places=4)
 
     def test_identical_points(self):
+        # given
         points = [(7, 7), (7, 7)]
+        # when
         result = closest_pair(points)
+        # then
         self.assertAlmostEqual(result, 0.0, places=4)
 
     def test_large_set(self):
+        # given
         points = [(i, i) for i in range(1000)]
+        # when
         result = closest_pair(points)
+        # then
         self.assertAlmostEqual(result, math.sqrt(2), places=4)
 
     def test_scattered_points(self):
+        # given
         points = [(1, 1), (2, 2), (3, 3), (10, 10), (12, 12)]
+        # when
         result = closest_pair(points)
+        # then
         self.assertAlmostEqual(result, math.sqrt(2), places=4)
 
 if __name__ == '__main__':

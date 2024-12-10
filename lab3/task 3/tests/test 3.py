@@ -15,10 +15,10 @@ def can_sort_with_k(n, k, sizes):
 
     return sorted_sizes == sorted(sizes)
 
-
 class TestSortWithK(unittest.TestCase):
 
     def test_sortable_cases(self):
+        # given
         self.assertTrue(can_sort_with_k(5, 3, [1, 5, 3, 4, 1]))  # ДА
         self.assertFalse(can_sort_with_k(3, 2, [2, 1, 3]))  # НЕТ
         self.assertFalse(can_sort_with_k(6, 2, [6, 5, 4, 3, 2, 1]))  # НЕТ
@@ -26,6 +26,7 @@ class TestSortWithK(unittest.TestCase):
         self.assertFalse(can_sort_with_k(4, 2, [4, 3, 2, 1]))  # НЕТ
 
     def test_edge_cases(self):
+        # given
         self.assertTrue(can_sort_with_k(1, 1, [1]))  # ДА
         self.assertTrue(can_sort_with_k(2, 1, [1, 2]))  # ДА
         self.assertTrue(can_sort_with_k(2, 1, [2, 1]))  # ДА

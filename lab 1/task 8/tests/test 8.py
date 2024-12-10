@@ -1,7 +1,6 @@
 import unittest
 import os
 
-
 def swap_sort(arr):
     swaps = []
     n = len(arr)
@@ -16,19 +15,20 @@ def swap_sort(arr):
 
     return swaps
 
-
 class TestSwapSort(unittest.TestCase):
 
     def setUp(self):
+        # given
         self.input_file = 'input.txt'
         self.output_file = 'output.txt'
 
     def tearDown(self):
-        # Remove the output file after each test
+        # given
         if os.path.exists(self.output_file):
             os.remove(self.output_file)
 
     def test_case_1(self):
+        # given
         with open(self.input_file, 'w') as f:
             f.write('5\n3 1 4 2 2\n')
 
@@ -42,6 +42,7 @@ class TestSwapSort(unittest.TestCase):
             for swap in swaps:
                 outfile.write(swap + '\n')
 
+        # when
         expected_output = [
             "Swap elements at indices 1 and 2.",
             "Swap elements at indices 2 and 4.",
@@ -54,9 +55,11 @@ class TestSwapSort(unittest.TestCase):
         with open(self.output_file, 'r') as f:
             result = [line.strip() for line in f.readlines()]
 
+        # then
         self.assertEqual(result, expected_output)
 
     def test_case_2(self):
+        # given
         with open(self.input_file, 'w') as f:
             f.write('4\n4 3 2 1\n')
 
@@ -70,6 +73,7 @@ class TestSwapSort(unittest.TestCase):
             for swap in swaps:
                 outfile.write(swap + '\n')
 
+        # when
         expected_output = [
             "Swap elements at indices 1 and 2.",
             "Swap elements at indices 1 and 3.",
@@ -83,9 +87,11 @@ class TestSwapSort(unittest.TestCase):
         with open(self.output_file, 'r') as f:
             result = [line.strip() for line in f.readlines()]
 
+        # then
         self.assertEqual(result, expected_output)
 
     def test_case_3(self):
+        # given
         with open(self.input_file, 'w') as f:
             f.write('3\n1 1 1\n')
 
@@ -99,6 +105,7 @@ class TestSwapSort(unittest.TestCase):
             for swap in swaps:
                 outfile.write(swap + '\n')
 
+        # when
         expected_output = [
             "No more swaps needed."
         ]
@@ -106,6 +113,7 @@ class TestSwapSort(unittest.TestCase):
         with open(self.output_file, 'r') as f:
             result = [line.strip() for line in f.readlines()]
 
+        # then
         self.assertEqual(result, expected_output)
 
 if __name__ == '__main__':

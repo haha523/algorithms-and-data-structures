@@ -29,24 +29,33 @@ def count_segments_containing_points(segments, points):
 class TestCountSegments(unittest.TestCase):
 
     def test_case_1(self):
+        # given
         segments = [(0, 5), (7, 10)]
         points = [1, 6, 11]
         expected = [1, 0, 0]
+        # when
         result = count_segments_containing_points(segments, points)
+        # then
         self.assertEqual(result, expected)
 
     def test_case_2(self):
+        # given
         segments = [(-10, 10)]
         points = [-100, 100, 0]
         expected = [0, 0, 1]
+        # when
         result = count_segments_containing_points(segments, points)
+        # then
         self.assertEqual(result, expected)
 
     def test_case_3(self):
+        # given
         segments = [(0, 5), (-3, 2), (7, 10)]
         points = [1, 6]
         expected = [2, 0]
+        # when
         result = count_segments_containing_points(segments, points)
+        # then
         self.assertEqual(result, expected)
 
 if __name__ == '__main__':

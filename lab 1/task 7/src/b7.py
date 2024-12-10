@@ -1,6 +1,5 @@
 import os
 
-
 def process_data(input_file, output_file):
     with open(input_file, 'r') as file:
         n = int(file.readline().strip())
