@@ -34,9 +34,9 @@
    ```
 3. **Запустить все лабораторные**
     ```bash
-   python src/main.py
+    for script in lab*/src/*.py; do PYTHONPATH=$(pwd) python "$script"; done
    ```
 4. **Запустить все тесты**
    ```bash
-   python -documents_count unittest discover
+   for script in lab*/tests/*.py; do PYTHONPATH=$(pwd) python "$script"; done
    ```
