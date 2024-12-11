@@ -7,7 +7,7 @@
 - [ ] [Задача 1 - Сортировка слиянием](https://github.com/haha523/algorithms-and-data-structures/blob/2e78c9e3fbc0f9a43f106032664df5529f81684e/lab%202/task%201/README.md)
 - [ ] [Задача 2 - Сортировка слиянием+](https://github.com/haha523/algorithms-and-data-structures/blob/ab4aa85db68c68a8f0ce5601a0cae12862ed06d6/lab%202/task%202/README.md)
 - [ ] [Задача 3 - Число инверсий](https://github.com/haha523/algorithms-and-data-structures/blob/1eec2dad2bf674b1382b34e699b66d4f615afbbf/lab%202/task%203/READEME.md)
-- [ ] [Задача 4 - Бинарный поиск](https://github.com/haha523/algorithms-and-data-structures/blob/f598f8ce7592329fe1f8116b9d534752470ee24a/lab%202/task%204/README.md)
+- [ ] [Задача 4 - Бинарный поиск](https://github.com/haha523/algorithms-and-data-structures/blob/2ad6e6a55b716253dcca1fcf81f33bc4483d288a/lab%202/task%204/README.md)
 - [ ] [Задача 5 - Представитель большинства](https://github.com/haha523/algorithms-and-data-structures/blob/f598f8ce7592329fe1f8116b9d534752470ee24a/lab%202/task%205/README.md)
 - [ ] [Задача 6 - Поиск максимальной прибыли](https://github.com/haha523/algorithms-and-data-structures/blob/f598f8ce7592329fe1f8116b9d534752470ee24a/lab%202/task%206/README.md)
 - [ ] [Задача 7 - Поиск максимального подмассива за линейное время](https://github.com/haha523/algorithms-and-data-structures/blob/f598f8ce7592329fe1f8116b9d534752470ee24a/lab%202/task%207/README.md)
