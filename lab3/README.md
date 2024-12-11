@@ -7,14 +7,14 @@
 ### Навигация
 
 - [ ] [Задача 1 - Улучшение Quick sort](https://github.com/haha523/algorithms-and-data-structures/blob/4f32e0affe5a387393ad15b9ac6ece899a6202b4/lab3/task%201/README.md)
-- [ ] [Задача 2 - Сортировка слиянием+](https://github.com/haha523/algorithms-and-data-structures/blob/0d2d7f0c5a4fe5e9e448645f0e82ca7ef21a61c4/lab%202/task%202/README.md)
-- [ ] [Задача 3 - Число инверсий](https://github.com/haha523/algorithms-and-data-structures/blob/0d2d7f0c5a4fe5e9e448645f0e82ca7ef21a61c4/lab%202/task%203/READEME.md)
-- [ ] [Задача 4 - Бинарный поиск](https://github.com/haha523/algorithms-and-data-structures/blob/0d2d7f0c5a4fe5e9e448645f0e82ca7ef21a61c4/lab%202/task%204/README.md)
-- [ ] [Задача 5 - Представитель большинства](https://github.com/haha523/algorithms-and-data-structures/blob/0d2d7f0c5a4fe5e9e448645f0e82ca7ef21a61c4/lab%202/task%205/README.md)
-- [ ] [Задача 6 - Поиск максимальной прибыли](https://github.com/haha523/algorithms-and-data-structures/blob/0d2d7f0c5a4fe5e9e448645f0e82ca7ef21a61c4/lab%202/task%206/README.md)
-- [ ] [Задача 7 - Поиск максимального подмассива за линейное время](https://github.com/haha523/algorithms-and-data-structures/blob/0d2d7f0c5a4fe5e9e448645f0e82ca7ef21a61c4/lab%202/task%207/README.md)
-- [ ] [Задача 8 - Умножение многочленов](https://github.com/haha523/algorithms-and-data-structures/blob/0d2d7f0c5a4fe5e9e448645f0e82ca7ef21a61c4/lab%202/task%208/README.md)
-- [ ] [Задача 9 - Метод Штрассена для умножения матриц](https://github.com/haha523/algorithms-and-data-structures/blob/0d2d7f0c5a4fe5e9e448645f0e82ca7ef21a61c4/lab%202/task%209/README.md)
+- [ ] [Задача 2 - Анти-quick sort](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%202/README.md)
+- [ ] [Задача 3 - Сортировка пугалом](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%203/README.md)
+- [ ] [Задача 4 - Точки и отрезки](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%204/README.md)
+- [ ] [Задача 5 - Индекс Хирша](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%205/README.md)
+- [ ] [Задача 6 - Сортировка целых чисел](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%206/README.md)
+- [ ] [Задача 7 - Цифровая сортировка](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%207/README.md)
+- [ ] [Задача 8 - K ближайших точек к началу координат](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%208/README.md)
+- [ ] [Задача 9 - Ближайшие точки](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%209/README.md)
 
 
 ## Описание
