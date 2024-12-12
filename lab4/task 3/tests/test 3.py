@@ -44,7 +44,7 @@ class TestBracketSequence(unittest.TestCase):
             output = f.read().strip().split('\n')
 
         # then
-        expected_output = ['YES', 'YES', 'NO', 'NO', 'NO']  # Kết quả mong đợi
+        expected_output = ['YES', 'YES', 'NO', 'NO', 'NO']  
         self.assertEqual(output, expected_output)
 
 if __name__ == '__main__':
