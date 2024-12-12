@@ -6,7 +6,7 @@
 
 ### Навигация
 
-- [ ] [Задача 1 - Сортировка вставкой](https://github.com/haha523/algorithms-and-data-structures/blob/433706323c37853ab42499f9c273d95f4797b9b7/lab%201/task%202/README.md)
+- [ ] [Задача 1 - Сортировка вставкой +](https://github.com/haha523/algorithms-and-data-structures/blob/433706323c37853ab42499f9c273d95f4797b9b7/lab%201/task%202/README.md)
 - [ ] [Задача 2 - Сортировка вставкой по убыванию](https://github.com/haha523/algorithms-and-data-structures/blob/59ea01cb983fc7707c7d716ed1a165948720b866/lab%201/task%203/README.md)
 - [ ] [Задача 3 - Линейный поиск](https://github.com/haha523/algorithms-and-data-structures/blob/59ea01cb983fc7707c7d716ed1a165948720b866/lab%201/task%204/README.md)
 - [ ] [Задача 4 - Сортировка выбором](https://github.com/haha523/algorithms-and-data-structures/blob/59ea01cb983fc7707c7d716ed1a165948720b866/lab%201/task%205/README.md)
