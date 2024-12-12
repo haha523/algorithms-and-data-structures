@@ -23,9 +23,9 @@ def main():
     output_file_path = '../txtf/output.txt'
 
     with open(input_file_path, 'r', encoding='utf-8') as infile:
-        n = int(infile.readline().strip())  # Read n
-        arr = list(map(int, infile.readline().strip().split()))  # Read array
-        m = int(infile.readline().strip())  # Read m
+        n = int(infile.readline().strip())  
+        arr = list(map(int, infile.readline().strip().split()))  
+        m = int(infile.readline().strip())  
 
     result = max_in_sliding_window(n, arr, m)
 
