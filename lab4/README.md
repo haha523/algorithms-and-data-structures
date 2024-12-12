@@ -6,15 +6,15 @@
 
 ### Навигация
 
-- [ ] [Задача 1 - Улучшение Quick sort](https://github.com/haha523/algorithms-and-data-structures/blob/4f32e0affe5a387393ad15b9ac6ece899a6202b4/lab3/task%201/README.md)
-- [ ] [Задача 2 - Анти-quick sort](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%202/README.md)
-- [ ] [Задача 3 - Сортировка пугалом](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%203/README.md)
-- [ ] [Задача 4 - Точки и отрезки](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%204/README.md)
-- [ ] [Задача 5 - Индекс Хирша](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%205/README.md)
-- [ ] [Задача 6 - Сортировка целых чисел](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%206/README.md)
-- [ ] [Задача 7 - Цифровая сортировка](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%207/README.md)
-- [ ] [Задача 8 - K ближайших точек к началу координат](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%208/README.md)
-- [ ] [Задача 9 - Ближайшие точки](https://github.com/haha523/algorithms-and-data-structures/blob/90141a502473dd1796572098cae006f24ba76fde/lab3/task%209/README.md)
+- [ ] [Задача 1 - Стек](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%201/README.md)
+- [ ] [Задача 2 - Очередь](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%202/README.md)
+- [ ] [Задача 3 - Скобочная последовательность. Версия 1](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%203/README.md)
+- [ ] [Задача 4 - Скобочная последовательность. Версия 2](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%204/README.md)
+- [ ] [Задача 5 - Стек с максимумом](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%205/README.md)
+- [ ] [Задача 6 - Очередь с минимумом](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%206/README.md)
+- [ ] [Задача 7 - Максимум в движущейся последовательности](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%207/README.md)
+- [ ] [Задача 8 - K ближайших точек к началу координат](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%208/README.md)
+- [ ] [Задача 9 - Ближайшие точки](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%209/README.md)
 
 
 ## Описание
