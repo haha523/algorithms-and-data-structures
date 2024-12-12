@@ -27,10 +27,6 @@ def main():
     input_file_path = os.path.join(txtf_dir, 'input.txt')
     output_file_path = os.path.join(txtf_dir, 'output.txt')
 
-    if not os.path.isfile(input_file_path):
-        with open(input_file_path, 'w', encoding='utf-8') as infile:
-            infile.write("4\n+ 1\n+ 10\n-\n-\n")
-
     process_queue_commands(input_file_path, output_file_path)
 
 if __name__ == "__main__":
