@@ -13,14 +13,14 @@ class MinQueue:
 
     def remove(self):
         if not self.queue:
-            raise IndexError("remove from empty queue")  # Ném ngoại lệ nếu hàng đợi rỗng
+            raise IndexError("remove from empty queue")  
         value = self.queue.popleft()
         if value == self.min_queue[0]:
             self.min_queue.popleft()
 
     def get_min(self):
         if not self.min_queue:
-            raise IndexError("get_min from empty queue")  # Ném ngoại lệ nếu hàng đợi rỗng
+            raise IndexError("get_min from empty queue")  
         return self.min_queue[0]
 
 def main():
