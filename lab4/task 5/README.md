@@ -64,7 +64,7 @@
    ```
 2. **Перейдите в папку с проектом**
    ```bash
-   cd algorithms-and-data-structures/lab4
+   cd "algorithms-and-data-structures/lab4"
    ```
 3. **Запустить все лабораторные**
     ```bash
