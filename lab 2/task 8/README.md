@@ -56,7 +56,7 @@ C = A(x) ∗ B(x) = (A1B1)x^n + (A1B2 + A2B1)x^(n/2) + A2B2 - требуется
    ```
 2. **Перейдите в папку с проектом**
    ```bash
-   cd algorithms-and-data-structures/lab 2
+   cd "algorithms-and-data-structures/lab 2"
    ```
 3. **Запустить все лабораторные**
     ```bash
