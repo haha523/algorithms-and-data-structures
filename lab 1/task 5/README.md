@@ -38,7 +38,7 @@
    ```
 2. **Перейдите в папку с проектом**
    ```bash
-   cd algorithms-and-data-structures/lab 1
+   cd "algorithms-and-data-structures/lab 1"
    ```
 3. **Запустить все лабораторные**
     ```bash
