@@ -65,7 +65,7 @@ Partition и ее с Partition3 на сетах случайных данных,
    ```
 2. **Перейдите в папку с проектом**
    ```bash
-   cd algorithms-and-data-structures/lab3
+   cd "algorithms-and-data-structures/lab3"
    ```
 3. **Запустить все лабораторные**
     ```bash
