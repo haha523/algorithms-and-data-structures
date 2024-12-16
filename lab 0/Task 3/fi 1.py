@@ -5,6 +5,5 @@ def calc_fib(n):
     for _ in range(2, n + 1):
         a, b = b, a + b
     return b
-
 n = int(input())
 print(calc_fib(n))
