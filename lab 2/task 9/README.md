@@ -62,7 +62,7 @@ P4 = D(G − E).
    ```
 2. **Перейдите в папку с проектом**
    ```bash
-   cd algorithms-and-data-structures/lab 2
+   cd "algorithms-and-data-structures/lab 2"
    ```
 3. **Запустить все лабораторные**
     ```bash
