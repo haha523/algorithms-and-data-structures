@@ -1,4 +1,0 @@
-Company: Gazprom
-Buy on: 2024-09-02
-Sell on: 2024-09-04
-Max Profit: 210.0
