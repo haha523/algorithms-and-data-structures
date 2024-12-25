@@ -6,13 +6,13 @@
 
 ### Навигация
 
-- [ ] [Задача 1 - Куча ли?](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%201/README.md)
-- [ ] [Задача 2 - Высота дерева](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%202/README.md)
-- [ ] [Задача 3 - Обработка сетевых пакетов](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%203/README.md)
-- [ ] [Задача 4 - Построение пирамиды](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%204/README.md)
-- [ ] [Задача 5 - Планировщик заданий](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%205/README.md)
-- [ ] [Задача 6 - Очередь с приоритетами](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%206/README.md)
-- [ ] [Задача 7 - Снова сортировка](https://github.com/haha523/algorithms-and-data-structures/blob/7af2be9173259c1ba314fbe6a21eddab54b4e1d1/lab4/task%207/README.md)
+- [ ] [Задача 1 - Куча ли?](https://github.com/haha523/algorithms-and-data-structures/blob/63059a77e0e9ec8d519b70d9fb0e1a201b30068e/lab5/task%201/README.md)
+- [ ] [Задача 2 - Высота дерева](https://github.com/haha523/algorithms-and-data-structures/blob/63059a77e0e9ec8d519b70d9fb0e1a201b30068e/lab5/task%202/README.md)
+- [ ] [Задача 3 - Обработка сетевых пакетов](https://github.com/haha523/algorithms-and-data-structures/blob/63059a77e0e9ec8d519b70d9fb0e1a201b30068e/lab5/task%203/README.md)
+- [ ] [Задача 4 - Построение пирамиды](https://github.com/haha523/algorithms-and-data-structures/blob/63059a77e0e9ec8d519b70d9fb0e1a201b30068e/lab5/task%204/README.md)
+- [ ] [Задача 5 - Планировщик заданий](https://github.com/haha523/algorithms-and-data-structures/blob/63059a77e0e9ec8d519b70d9fb0e1a201b30068e/lab5/task%205/README.md)
+- [ ] [Задача 6 - Очередь с приоритетами](https://github.com/haha523/algorithms-and-data-structures/blob/63059a77e0e9ec8d519b70d9fb0e1a201b30068e/lab5/task%206/README.md)
+- [ ] [Задача 7 - Снова сортировка](https://github.com/haha523/algorithms-and-data-structures/blob/b3e9f5bd3402c2f4766215a463820ff84e5718da/lab5/task%207/README.md)
 
 
 
