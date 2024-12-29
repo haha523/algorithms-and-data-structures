@@ -6,13 +6,13 @@
 
 ### Навигация
 
-- [ ] [Задача 1 - Обмен монет](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%201/README.md)
-- [ ] [Задача 2 - Примитивный калькулятор](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%202/README.md)
-- [ ] [Задача 3 - Редакционное расстояние](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%203/README.md)
-- [ ] [Задача 4 - Наибольшая общая подпоследовательность двух последовательностей](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%204/README.md)
-- [ ] [Задача 5 - Наибольшая общая подпоследовательность трех последовательностей](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%205/README.md)
-- [ ] [Задача 6 - Наибольшая возрастающая подпоследовательность](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%206/README.md)
-- [ ] [Задача 7 - Шаблоны](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%207/README.md)
+- [ ] [Задача 1 - Обмен монет](https://github.com/haha523/algorithms-and-data-structures/blob/e4f608244ba93cce153e4c86a442824195946023/lab7/task%201/README.md)
+- [ ] [Задача 2 - Примитивный калькулятор](https://github.com/haha523/algorithms-and-data-structures/blob/e4f608244ba93cce153e4c86a442824195946023/lab7/task%202/README.md)
+- [ ] [Задача 3 - Редакционное расстояние](https://github.com/haha523/algorithms-and-data-structures/blob/e4f608244ba93cce153e4c86a442824195946023/lab7/task%203/README.md)
+- [ ] [Задача 4 - Наибольшая общая подпоследовательность двух последовательностей](https://github.com/haha523/algorithms-and-data-structures/blob/e4f608244ba93cce153e4c86a442824195946023/lab7/task%204/README.md)
+- [ ] [Задача 5 - Наибольшая общая подпоследовательность трех последовательностей](https://github.com/haha523/algorithms-and-data-structures/blob/e4f608244ba93cce153e4c86a442824195946023/lab7/task%205/README.md)
+- [ ] [Задача 6 - Наибольшая возрастающая подпоследовательность](https://github.com/haha523/algorithms-and-data-structures/blob/e4f608244ba93cce153e4c86a442824195946023/lab7/task%206/README.md)
+- [ ] [Задача 7 - Шаблоны](https://github.com/haha523/algorithms-and-data-structures/blob/e4f608244ba93cce153e4c86a442824195946023/lab7/task%207/README.md)
 
 
 
