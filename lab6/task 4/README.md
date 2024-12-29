@@ -48,9 +48,7 @@ next с этим же ключом сразу после выполнения т
 
 | Input                                            | Output                               |   
 |--------------------------------------------------|--------------------------------------|
-| 14 <br/>put zero a<br/>put one b<br/>put two c<br/>put three d<br/>put three d a
-put four e<br/>get two<br/>prev two<br/>next two<br/>delete one<br/>delete three<br/>get two
-<br/>prev two<br/>next two<br/>next four | c<br/>b<br/>d<br/>c<br/>a<br/>e<br/><none> |
+| 14 <br/>put zero a<br/>put one b<br/>put two c<br/>put three d<br/>put three d a<br/>put four e<br/>get two<br/>prev two<br/>next two<br/>delete one<br/>delete three<br/>get two<br/>prev two<br/>next two<br/>next four | c<br/>b<br/>d<br/>c<br/>a<br/>e<br/><none> |
 
 
 
