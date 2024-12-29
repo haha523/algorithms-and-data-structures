@@ -6,14 +6,14 @@
 
 ### Навигация
 
-- [ ] [Задача 1 - Множество](https://github.com/haha523/algorithms-and-data-structures/blob/63059a77e0e9ec8d519b70d9fb0e1a201b30068e/lab5/task%201/README.md)
-- [ ] [Задача 2 - Телефонная книга](https://github.com/haha523/algorithms-and-data-structures/blob/63059a77e0e9ec8d519b70d9fb0e1a201b30068e/lab5/task%202/README.md)
-- [ ] [Задача 3 - Хеширование с цепочками](https://github.com/haha523/algorithms-and-data-structures/blob/63059a77e0e9ec8d519b70d9fb0e1a201b30068e/lab5/task%203/README.md)
-- [ ] [Задача 4 - Прошитый ассоциативный массив](https://github.com/haha523/algorithms-and-data-structures/blob/63059a77e0e9ec8d519b70d9fb0e1a201b30068e/lab5/task%204/README.md)
-- [ ] [Задача 5 - Выборы в США](https://github.com/haha523/algorithms-and-data-structures/blob/63059a77e0e9ec8d519b70d9fb0e1a201b30068e/lab5/task%205/README.md)
-- [ ] [Задача 6 - Фибоначчи возвращается](https://github.com/haha523/algorithms-and-data-structures/blob/63059a77e0e9ec8d519b70d9fb0e1a201b30068e/lab5/task%206/README.md)
-- [ ] [Задача 7 - Драгоценные камни](https://github.com/haha523/algorithms-and-data-structures/blob/b3e9f5bd3402c2f4766215a463820ff84e5718da/lab5/task%207/README.md)
-- [ ] [Задача 8 - Почти интерактивная хеш-таблица](https://github.com/haha523/algorithms-and-data-structures/blob/b3e9f5bd3402c2f4766215a463820ff84e5718da/lab5/task%207/README.md)
+- [ ] [Задача 1 - Множество](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%201/README.md)
+- [ ] [Задача 2 - Телефонная книга](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%202/README.md)
+- [ ] [Задача 3 - Хеширование с цепочками](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%203/README.md)
+- [ ] [Задача 4 - Прошитый ассоциативный массив](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%204/README.md)
+- [ ] [Задача 5 - Выборы в США](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%205/README.md)
+- [ ] [Задача 6 - Фибоначчи возвращается](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%206/README.md)
+- [ ] [Задача 7 - Драгоценные камни](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%207/README.md)
+- [ ] [Задача 8 - Почти интерактивная хеш-таблица](https://github.com/haha523/algorithms-and-data-structures/blob/fe3c7c3bc62e468e2e451dc52847b593dcfb2196/lab6/task%208/README.md)
 
 
 ## Описание
